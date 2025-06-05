@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/green-power-website/static/css/main.4738fa0d.css",
-    "main.js": "/green-power-website/static/js/main.29f190eb.js",
-    "static/js/453.14b02d4a.chunk.js": "/green-power-website/static/js/453.14b02d4a.chunk.js",
-    "index.html": "/green-power-website/index.html",
-    "main.4738fa0d.css.map": "/green-power-website/static/css/main.4738fa0d.css.map",
-    "main.29f190eb.js.map": "/green-power-website/static/js/main.29f190eb.js.map",
-    "453.14b02d4a.chunk.js.map": "/green-power-website/static/js/453.14b02d4a.chunk.js.map"
+    "main.css": "/demo7-dirty-power/static/css/main.4738fa0d.css",
+    "main.js": "/demo7-dirty-power/static/js/main.be2464d7.js",
+    "static/js/453.b64cfc03.chunk.js": "/demo7-dirty-power/static/js/453.b64cfc03.chunk.js",
+    "index.html": "/demo7-dirty-power/index.html",
+    "main.4738fa0d.css.map": "/demo7-dirty-power/static/css/main.4738fa0d.css.map",
+    "main.be2464d7.js.map": "/demo7-dirty-power/static/js/main.be2464d7.js.map",
+    "453.b64cfc03.chunk.js.map": "/demo7-dirty-power/static/js/453.b64cfc03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4738fa0d.css",
-    "static/js/main.29f190eb.js"
+    "static/js/main.be2464d7.js"
   ]
 }
