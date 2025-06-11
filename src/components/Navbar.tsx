@@ -14,6 +14,12 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
+              <img
+                src="/demo7-dirty-power/logo.jpeg"
+                alt="Goupil Energy Logo"
+                className="h-10 w-10 object-cover rounded-full border-2 border-white shadow mr-2"
+                style={{ aspectRatio: '1/1' }}
+              />
               <span className="text-white text-xl font-bold">Goupil Energy</span>
             </Link>
           </div>

@@ -61,6 +61,14 @@ const ComparePage: React.FC = () => {
 
   return (
     <div className="bg-light min-h-screen">
+      <div className="flex justify-center pt-8">
+        <img
+          src="/demo7-dirty-power/logo.jpeg"
+          alt="DirtyPower Logo"
+          className="h-20 w-20 object-cover rounded-full border-2 border-primary shadow"
+          style={{ aspectRatio: '1/1' }}
+        />
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-dark">Energy Comparison Tool</h1>
