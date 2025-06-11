@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
                     to="/compare" 
                     className="inline-block bg-primary text-white font-medium px-6 py-2 rounded-md hover:bg-secondary transition-colors"
                   >
-                    Compare offers
+                    Choose an offer
                   </Link>
                 </div>
               </div>
