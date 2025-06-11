@@ -86,7 +86,7 @@ const HomePage: React.FC = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold">Our Key Figures</h2>
             <p className="mt-4 text-lg text-gray-200 max-w-3xl mx-auto">
-              DirtyPower in numbers
+              Goupil Energy in numbers
             </p>
           </div>
           
@@ -163,7 +163,7 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "The transition to DirtyPower was simple and hassle-free. The prices are transparent and I've never had any surprises on my bill."
+                "The transition to Goupil Energy was simple and hassle-free. The prices are transparent and I've never had any surprises on my bill."
               </p>
               <div className="mt-4 flex text-yellow-500">
                 <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
@@ -178,7 +178,7 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to switch energy suppliers?</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
-            Join DirtyPower today and benefit from competitive rates and quality customer service.
+            Join Goupil Energy today and benefit from competitive rates and quality customer service.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link 

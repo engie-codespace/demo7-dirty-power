@@ -1,8 +1,8 @@
-# DirtyPower - Energy Supply Website
+# Goupil Energy - Energy Supply Website
 
 ## Introduction
 
-This codebase contains a React-based website for DirtyPower, a company offering energy from various sources including gas, coal, and nuclear power plants. The site provides customers with a comprehensive interface to compare different energy options, view detailed information about each energy type, explore pricing plans, and contact the company.
+This codebase contains a React-based website for Goupil Energy, a company offering energy from various sources including gas, coal, and nuclear power plants. The site provides customers with a comprehensive interface to compare different energy options, view detailed information about each energy type, explore pricing plans, and contact the company.
 
 The website is structured with the following main features:
 - **Homepage** with services overview and customer testimonials
