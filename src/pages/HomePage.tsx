@@ -1,10 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
+import TimeSeriesChart from '../components/TimeSeriesChart';
+import { generateTimeSeriesData } from '../data/generateTimeSeriesData';
 
 const HomePage: React.FC = () => {
   return (
     <div>
+      {/* Time Series Chart at the top */}
+      <div className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <TimeSeriesChart data={generateTimeSeriesData()} />
+        </div>
+      </div>
       <Hero />
       
       {/* Our Services Section */}
