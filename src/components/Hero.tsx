@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ChatbotWidget from './ChatbotWidget';
 
 const Hero: React.FC = () => {
   return (
@@ -31,19 +32,27 @@ const Hero: React.FC = () => {
           </div>
           
           <div className="hidden md:flex items-center justify-center">
-            <div className="relative w-full h-80">
+            <div className="relative w-full h-80 flex gap-6">
               <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform rotate-3"></div>
               <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform -rotate-3"></div>
-              <div className="absolute inset-0 bg-white bg-opacity-90 rounded-lg shadow-lg flex items-center justify-center p-8">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-primary mb-4">Calculate your savings</h3>
-                  <p className="text-gray-600 mb-6">Estimate how much you could save by choosing our energy offers</p>
-                  <Link 
-                    to="/compare" 
-                    className="inline-block bg-primary text-white font-medium px-6 py-2 rounded-md hover:bg-secondary transition-colors"
-                  >
-                    Choose an offer
-                  </Link>
+              <div className="absolute inset-0 bg-white bg-opacity-90 rounded-lg shadow-lg flex items-center justify-center p-8 z-10">
+                <div className="flex flex-col md:flex-row gap-6 w-full justify-center items-start">
+                  <div className="text-center flex-1 min-w-[220px]">
+                    <h3 className="text-2xl font-bold text-primary mb-4">Find the best offer for you</h3>
+                    <p className="text-gray-600 mb-6">
+                      Hello! At Goupil Energy, we believe it's possible to power your home while protecting the planet.<br/>
+                      Would you be interested in an energy plan that’s as green as possible, tailored to your needs and budget?
+                    </p>
+                    <Link 
+                      to="/compare" 
+                      className="inline-block bg-primary text-white font-medium px-6 py-2 rounded-md hover:bg-secondary transition-colors"
+                    >
+                      Choose an offer
+                    </Link>
+                  </div>
+                  <div className="flex-1 min-w-[220px]">
+                    <ChatbotWidget />
+                  </div>
                 </div>
               </div>
             </div>
